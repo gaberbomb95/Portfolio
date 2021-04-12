@@ -21,9 +21,9 @@ You are **responsible** for scheduling time with your squad to seek approval for
 |Day 5| Final Touches | Incomplete
 |Day 6| Present | Incomplete
 | <-> |POST <---------> MVP| <->|
-|TBD| Project-Description| Incomplete
-|TBD| Project-Description | Incomplete
-|TBD| Project Description | Incomplete
+|Hover: Rubberband| Lettering bounces when hovering over| Incomplete
+|Bootrap| Library components | Incomplete
+|Carousel| Carousel through portfolio projects | Incomplete
 
 
 
@@ -111,11 +111,11 @@ Time frames are also key in the development cycle.  You have limited time to cod
 #### PostMVP
 | Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: | 
-| Hover Rubberband | H | 1hr | hr | hr |
-| Bootstrap | H | 2hr | hr |
+| Hover Rubberband | H | 2hr | hr | hr |
+| Bootstrap | H | 3hr | hr |
 | Make Icon | L | 1hr | hr |
-| Carousel | H | 3hrs| hrs |
-| Total | H | 7hrs| hrs |
+| Carousel | H | 5hrs| hrs |
+| Total | H | 11hrs| hrs |
 
 
 ## Additional Libraries
