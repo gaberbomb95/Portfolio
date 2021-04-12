@@ -17,3 +17,5 @@ $.ajax("https://spreadsheets.google.com/feeds/list/1hoUmuy23O3N7PikDWrUvcJ3dfOLz
 .catch((error) => {
     console.error(error)
 })
+
+console.log("hello world")
