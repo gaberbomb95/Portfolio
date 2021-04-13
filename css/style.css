@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Gruppo&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+@media only screen and (max-width:650px) {
+    h1 {
+        font-family: "gruppo", sans-serif;
+        font-size: 60px;
+        font-weight: 900;
+        line-height: .8;
+        margin-left: 120px;
+        margin-top: 80px;
+        padding-bottom: 30px;
+    }
+    .fa-google {
+        font-size: 45px;
+        color: #9ad4ff;
+        margin-top: 35px;
+        margin-left: 15px;
+    }
+    .fa-bars {
+        color: black;
+        font-size: 30px;
+        margin-left: 400px;    
+    }
+    p {
+        font-size: 17px;
+        font-weight: 200;
+        margin-top: 20px;
+        margin-left: 15px;
+    }
+    span {
+        color: #fa4442;
+        font-weight: 300;
+    }
+    a {
+        text-decoration: none;
+    }
+    .tidbit1 {
+        font-size: 19px;
+        margin-left: 50px;
+    }
+    .tidbit2 {
+        font-size: 19px;
+        color: black;
+        font-weight: 200;
+        margin-left: 120px;
+    }
+    .svg {
+        width: 450px;
+        margin-left: 25px;
+    }
+    .web-dev {
+        width: 200px;
+        margin-left: 140px;
+        margin-top: 25px;
+        margin-bottom: 40px;
+    }
+    .container {
+        margin: 0px;
+        padding: 0px;
+    }
+    .container2 {
+        background-color: #9ad4ff;
+        width: 100%;
+        padding: 20px;
+    }
+    .container2 h2 {
+        font-family: "gruppo", sans-serif;
+        font-weight: 900;
+        color: white;
+        margin-left: 40px;
+        margin-top: 40px;
+        height:
+    }
+    .personal {
+        color: white;
+        font-weight: 200;
+        line-height: 1.9;
+        margin-left: 50px;
+    }
+    .filler {
+        height: 140px;
+        background-color: #9ad4ff;
+    }
+}
