@@ -72,30 +72,160 @@
         font-family: "gruppo", sans-serif;
         font-weight: 900;
         color: white;
-        margin-left: 40px;
+        margin-left: 50px;
         margin-top: 40px;
-        height:
     }
     .personal {
         color: white;
         font-weight: 200;
         line-height: 1.9;
-        margin-left: 50px;
+        margin-left: 60px;
     }
     .filler {
         height: 140px;
         background-color: #9ad4ff;
     }
-    .container3 {
-        height: 500px;
-        width: 80%;
-        margin-left: 50px;
+    .skills {
+        height: 1750px;
+        width: 90%;
+        margin-left: 25px;
         background-color: white;
         border: 1px solid lightgray;
         position: relative;
         bottom: 120px;
-        border-radius: 1.2rem ;
+        border-radius: .9rem ;
+        box-shadow: 0 5px 2px -2px lightgray;
+        margin-bottom: -65px;
     }
     .touts {
+    }
+    .fa-html5 {
+        font-size: 70px;
+        color: #e54f26;
+        margin-left: 190px;
+        margin-top: 40px;
+        margin-bottom: 23px;
+    }
+    .html5 {
+        margin-left: 175px;
+        margin-bottom: 40px;
+        margin-top: 12px;
+    }
+    .css3 {
+        margin-left: 195px;
+        margin-bottom: 40px;
+        margin-top: 12px;
+    }
+    .js {
+        margin-left: 168px;
+        margin-bottom: 40px;
+        margin-top: 12px;
+    }
+    .fa-css3-alt {
+        font-size: 70px;
+        color: #2962ff;
+        margin-left: 199px;
+        margin-top: 40px;
+        margin-bottom: 23px;
+    }
+    .fa-js-square {
+        font-size: 70px;
+        color: #f0be11;
+        margin-left: 197px;
+        margin-top: 40px;
+        margin-bottom: 23px;
+    }
+    .tout-p {
+        line-height: .4;
+        margin-left: 40px;
+    }
+    .css-tout {
+        line-height: .4;
+        margin-left: 75px;
+    }
+    .js-tout {
+        line-height: .4;
+        margin-left: 90px;
+    }
+    .p1line2 {
+        margin-left: 85px;
+    }
+    .tout-p2 {
+        margin-top: 55px;
+        margin-left: 118px;
+        font-size: 19px;
+    }
+    .highlight {
+        color: #9ad4ff;
+    }
+    .tout-p3 {
+        margin-top: 55px;
+        margin-left: 157px;
+        font-size: 19px;
+        font-weight: 300;
+    }
+    .css-p3 {
+        margin-top: 55px;
+        margin-left: 170px;
+        font-size: 19px;
+        font-weight: 300;
+    }
+    .p2line2 {
+        margin-top: 0px;
+        padding-top: 0px;
+    }
+    .design {
+        margin-left: ;
+    }
+    .p3line2 {
+        margin-left: 155px;
+        padding-bottom: 37px;
+        font-size: 15px;
+        line-height: 1.8;
+    }
+    .chrome{
+        margin-left: 160px;
+    }
+    .figma {
+        margin-left: 48px;
+        color: black;
+        font-weight: 200;
+        font-size: 15px;
+    }
+    .hoverify {
+        margin-left: 36px;
+        color: black;
+        font-weight: 200;
+        font-size: 15px;
+    }
+    .pen {
+        margin-left: 26px;
+        color: black;
+        font-weight: 200;
+        font-size: 15px;
+    }
+    .js-tout-p2 {
+        margin-left: 110px;
+    }
+    .js-p3 {
+        margin-left: 157px;
+        font-size: 19px;
+        font-weight: 300;
+    }
+    .quokka {
+        margin-left: 198px;
+    }
+    .project-header {
+        font-family: "gruppo", sans-serif;
+        font-size: 35px;
+        margin-left: 148px;
+        
+    }
+    .projects {
+        height: 1500px;
+        background-color: lavender;
+    }
+    .recent-work {
+        font-size: 20px;
     }
 }
