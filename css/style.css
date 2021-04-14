@@ -224,24 +224,50 @@
         
     }
     .projects {
-        height: 1700px;
+        height: 1800px;
         background-color:white;
     }
     .recent-work {
         font-size: 21px;
         color:#141c3a;
-        margin-bottom: 90px;
+        margin-bottom: 70px;
     }
     .cards {
-        height: 300px;
+        height: 350px;
         width: 440px;
-        background-color: red;
         border-radius: 1rem;
-        margin-left: 30px;
-        margin-bottom: 30px
+        margin-left: 25px;
+        margin-bottom: 30px;
+        background-color: rgba(20, 28, 58, .07)
     }
     .cards img {
-        height: 30px;
+        height: 191px;
+        width: 440px;
+        border-top-right-radius: 1rem;
+        border-top-left-radius: 1rem;
+    }
+    .fa-github {
+        font-size: 30px;
+        color: #141c3a;
+        margin-top: 20px;
+    }
+    .fa-chrome {
+        font-size: 30px;
+        color: #141c3a
+    }
+     h5 {
+         color:#141c3a;
+        font-size: 23px;
+        font-weight: 900;
+        margin-left: 70px;
+        padding-top: 20px;
+    }
+    h5:nth-of-type(2) {
+        margin-left: 45px;
+    }
+    .project-description {
+        color: #141c3a;
+        margin-left: 130px;
     }
     form {
         height: 500px;
@@ -250,7 +276,7 @@
         background-color: #750ff7;
         border-radius: .8rem;
         position: relative;
-        bottom: 145px;
+        bottom: 95px;
         left: 95px;
         margin-left: 10px;
     }
@@ -306,6 +332,15 @@
         font-size: 90px;
         color: #0a66c2;
         margin-bottom: 45px;
-        margin-left: 210px;
+        margin-left: 140px;
         margin-top: -100px;
     }
+    #github {
+        font-size: 90px;
+        color: darkgray;
+        margin-bottom: 45px;
+        margin-left: 50px;
+        margin-top: -100px;
+    }
+
+    @media only screen

@@ -23,11 +23,12 @@ $.ajax("https://spreadsheets.google.com/feeds/list/1hoUmuy23O3N7PikDWrUvcJ3dfOLz
         
         const $projectCard = $(`
             <div class="cards">
-            <p>${arrItem.project}</p>
-            <p>${arrItem.description}</p>
-            <a href="${arrItem.liveurl}">LiveUrl</a>
-            <a href="${arrItem.giturl}">gitUrl</a>
             <img src="${arrItem.image}">
+            <h5>${arrItem.project}</h5>
+            <p class="project-description">${arrItem.description}</p>
+            <a href="${arrItem.liveurl}"><i class="fab fa-chrome"></i></a>
+            <a href="${arrItem.giturl}"><i class="fab fa-github"></i></a>
+           
             </div>
         `)
         $projectCard.appendTo(`section.projects`)
