@@ -12,10 +12,28 @@ $.ajax("https://spreadsheets.google.com/feeds/list/1hoUmuy23O3N7PikDWrUvcJ3dfOLz
         }
     })
     console.log("projects", projects);
+    projects.forEach((arrItem) => {
+        // appended div to section with class of 'projects'
+        // $(`<div>`).addClass("cards").appendTo("section.projects")
+        // $(`<p>${arrItem.project}</p>`).addClass("project-name").appendTo("cards")
+        // $(`<p> ${arrItem.description}</p>`).addClass("description").appendTo("cards")
+        // $(`<a>${arrItem.giturl}</a>`).addClass("giturl").appendTo("cards")
+        // $(`<a>${arrItem.liveurl}</a>`).addClass("liveurl").appendTo("cards")
+        console.log(arrItem);
+        
+        const $projectCard = $(`
+            <div class="cards">
+            <p>${arrItem.project}</p>
+            <p>${arrItem.description}</p>
+            <a href="${arrItem.liveurl}">LiveUrl</a>
+            <a href="${arrItem.giturl}">gitUrl</a>
+            <img src="${arrItem.image}">
+            </div>
+        `)
+        $projectCard.appendTo(`section.projects`)
+    })
 })
 //.catch in case of an error
 .catch((error) => {
     console.error(error)
 })
-
-console.log("hello world")

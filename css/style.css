@@ -5,26 +5,26 @@
     padding: 0px;
 }
 
-@media only screen and (max-width:650px) {
     h1 {
         font-family: "gruppo", sans-serif;
         font-size: 60px;
         font-weight: 900;
         line-height: .8;
         margin-left: 120px;
-        margin-top: 80px;
+        margin-top: 40px;
         padding-bottom: 30px;
     }
     .fa-google {
         font-size: 45px;
-        color: #9ad4ff;
+        color: #141c3a;
         margin-top: 35px;
         margin-left: 15px;
     }
     .fa-bars {
         color: black;
         font-size: 30px;
-        margin-left: 400px;    
+        margin-left: 400px;  
+        margin-bottom: 30px;  
     }
     p {
         font-size: 17px;
@@ -54,17 +54,17 @@
         margin-left: 25px;
     }
     .web-dev {
-        width: 200px;
-        margin-left: 140px;
-        margin-top: 25px;
-        margin-bottom: 40px;
+        width: 170px;
+        margin-left: 160px;
+        margin-top: 45px;
+        margin-bottom: 60px;
     }
     .container {
         margin: 0px;
         padding: 0px;
     }
     .container2 {
-        background-color: #9ad4ff;
+        background-color: #141c3a;
         width: 100%;
         padding: 20px;
     }
@@ -83,7 +83,7 @@
     }
     .filler {
         height: 140px;
-        background-color: #9ad4ff;
+        background-color: #141c3a;
     }
     .skills {
         height: 1750px;
@@ -117,7 +117,7 @@
         margin-top: 12px;
     }
     .js {
-        margin-left: 168px;
+        margin-left: 170px;
         margin-bottom: 40px;
         margin-top: 12px;
     }
@@ -145,7 +145,7 @@
     }
     .js-tout {
         line-height: .4;
-        margin-left: 90px;
+        margin-left: 93px;
     }
     .p1line2 {
         margin-left: 85px;
@@ -156,7 +156,7 @@
         font-size: 19px;
     }
     .highlight {
-        color: #9ad4ff;
+        color: #141c3a;
     }
     .tout-p3 {
         margin-top: 55px;
@@ -217,15 +217,95 @@
     }
     .project-header {
         font-family: "gruppo", sans-serif;
-        font-size: 35px;
-        margin-left: 148px;
+        font-size: 40px;
+        margin-left: 140px;
+        margin-top: 20px;
+        color: #141c3a;
         
     }
     .projects {
-        height: 1500px;
-        background-color: lavender;
+        height: 1700px;
+        background-color:white;
     }
     .recent-work {
-        font-size: 20px;
+        font-size: 21px;
+        color:#141c3a;
+        margin-bottom: 90px;
     }
-}
+    .cards {
+        height: 300px;
+        width: 440px;
+        background-color: red;
+        border-radius: 1rem;
+        margin-left: 30px;
+        margin-bottom: 30px
+    }
+    .cards img {
+        height: 30px;
+    }
+    form {
+        height: 500px;
+        width: 300px;
+        border: 1px ;
+        background-color: #750ff7;
+        border-radius: .8rem;
+        position: relative;
+        bottom: 145px;
+        left: 95px;
+        margin-left: 10px;
+    }
+    label {
+        margin: 10px;
+        color: white;
+    }
+
+    #first-name {
+        margin-left: 10px;
+        border: 1px solid lightgray;
+        border-radius: .4rem;
+    }
+    #last-name {
+        margin-left: 10px;
+        border: 1px solid lightgray;
+        border-radius: .4rem;
+    }
+    #email {
+        margin-left: 10px;
+        border: 1px solid lightgray;
+        border-radius: .4rem;
+    }
+    textarea {
+        margin-left: 10px;
+        border: 1px solid lightgray;
+        border-radius: .4rem;
+        max-height: 140px;
+        min-height: 140px;
+    
+    }
+    button {
+         width: 30%;
+         margin-top: 12px;
+         margin-left: 10px;
+         border: 2px solid #750ff7 ;
+         border-radius: .4rem;
+         background-color: #141c3a;
+         color: white
+    }
+    form h4 {
+        color:white;
+        font-family: "gruppo", sans-serif;
+        font-size: 35px;
+        font-weight: 900;
+        margin-left: 54px;
+        padding-top: 20px;
+    }
+    footer {
+        background-color: #141c3a;
+    }
+    .fa-linkedin {
+        font-size: 90px;
+        color: #0a66c2;
+        margin-bottom: 45px;
+        margin-left: 210px;
+        margin-top: -100px;
+    }
