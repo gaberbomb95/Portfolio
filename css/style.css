@@ -65,8 +65,10 @@
     }
     .container2 {
         background-color: #141c3a;
-        width: 48rem;
+        width: 100%;
         padding: 1.25rem;
+        border-top-left-radius: 1rem;
+        border-top-right-radius: 1rem;
     }
     .container2 h2 {
         font-family: "gruppo", sans-serif;
@@ -82,12 +84,12 @@
         margin-left: 3.75rem;
     }
     .filler {
-        width: 48rem;
+        width: 100%;
         height: 8.75rem;
         background-color: #141c3a;
     }
     .skills {
-        height: 109.375rem;
+        height: 109.375px;
         width: 90%;
         margin-left: 1.563rem;
         background-color: white;
@@ -99,6 +101,7 @@
         margin-bottom: -4.063rem;
     }
     .touts {
+        width: 256px;
     }
     .fa-html5 {
         font-size: 4.375rem;
@@ -363,6 +366,30 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     /* Tablet Styling */
     @media only screen and (min-width: 768px) {
 
@@ -425,35 +452,35 @@
     }
     .container2 {
         background-color: #141c3a;
-        width: 100%;
+        width: 133.5%;
         padding: 1.25rem;
-        margin-left: 9rem;
         border-top-left-radius: 1rem;
         border-top-right-radius: 1rem;
     }
     .container2 h2 {
         font-family: "gruppo", sans-serif;
+        font-size: 2.4rem;
         font-weight: 900;
         color: white;
-        margin-left: 8.125rem;
+        margin-left: 12.5rem;
         margin-top: 2.5rem;
     }
     .personal {
         color: white;
+        font-size: 1.4rem;
         font-weight: 200;
         line-height: 1.9;
-        margin-left: 9.75rem;
+        margin-left: 14.75rem;
     }
     .filler {
         height: 8.75rem;
-        width: 100%;
-        margin-left: 9.0rem;
+        width: 133.5%;
         background-color: #141c3a;
     }
     .skills {
         height: 109.375rem;
         width: 90%;
-        margin-left: 1.563rem;
+        margin-left: 2.563rem;
         background-color: white;
         border: .063rem solid lightgray;
         position: relative;
@@ -461,10 +488,7 @@
         border-radius: .9rem ;
         box-shadow: 0 .313rem .125rem -.125rem lightgray;
         margin-bottom: -4.063rem;
-    }
-    .touts {
         display: flex;
-        flex-direction: column;
     }
     
     .fa-html5 {
