@@ -75,7 +75,7 @@
         font-weight: 900;
         color: white;
         margin-left: 3.125rem;
-        margin-top: 2.5rem;
+        margin-top: 2.5rem; 
     }
     .personal {
         color: white;
@@ -89,7 +89,7 @@
         background-color: #141c3a;
     }
     .skills {
-        height: 109.375px;
+        height: 109.375rem;
         width: 90%;
         margin-left: 1.563rem;
         background-color: white;
@@ -101,7 +101,6 @@
         margin-bottom: -4.063rem;
     }
     .touts {
-        width: 256px;
     }
     .fa-html5 {
         font-size: 4.375rem;
@@ -225,7 +224,7 @@
         
     }
     .projects {
-        height: 112.5rem;
+        height: 100%;
         background-color:white;
     }
     .recent-work {
@@ -390,6 +389,30 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
     /* Tablet Styling */
     @media only screen and (min-width: 768px) {
 
@@ -459,18 +482,17 @@
     }
     .container2 h2 {
         font-family: "gruppo", sans-serif;
-        font-size: 2.4rem;
+        font-size: 2.2rem;
         font-weight: 900;
         color: white;
-        margin-left: 12.5rem;
+        margin-left: 12.125rem;
         margin-top: 2.5rem;
     }
     .personal {
         color: white;
-        font-size: 1.4rem;
         font-weight: 200;
         line-height: 1.9;
-        margin-left: 14.75rem;
+        margin-left: 16.75rem;
     }
     .filler {
         height: 8.75rem;
@@ -478,9 +500,9 @@
         background-color: #141c3a;
     }
     .skills {
-        height: 109.375rem;
+        height: 45.375rem;
         width: 90%;
-        margin-left: 2.563rem;
+        margin-left: 2.75rem;
         background-color: white;
         border: .063rem solid lightgray;
         position: relative;
@@ -490,89 +512,101 @@
         margin-bottom: -4.063rem;
         display: flex;
     }
+    .touts {
+        width: 33.5%;
+    }
+    .touts:nth-of-type(2) {
+        border-right: 1px solid #e6ecf8;
+        border-left: 1px solid #e6ecf8;
+    }
     
     .fa-html5 {
         font-size: 4.375rem;
         color: #e54f26;
-        margin-left: 23.8rem;
+        margin-left: 7.4rem;
         margin-top: 4.5rem;
         margin-bottom: 3.438rem;
     }
     .html5 {
-        font-size: 1.75rem;
-        margin-left: 22.938rem;
-        margin-bottom: 2.5rem;
+        font-size: 1.5rem;
+        margin-left: 6.5rem;
         margin-top: 1.75rem;
     }
     .css3 {
-        margin-left: 12.188rem;
-        margin-bottom: 2.5rem;
-        margin-top: .75rem;
+        margin-left: 6.7rem;
+        margin-top: 3.59rem;
     }
     .js {
-        margin-left: 10.625rem;
-        margin-bottom: 2.5rem;
-        margin-top: .75rem;
+        margin-left: 4.825rem;
+        margin-top: 3.25rem;
     }
     .fa-css3-alt {
         font-size: 4.375rem;
         color: #2962ff;
-        margin-left: 12.438rem;
-        margin-top: 2.5rem;
+        margin-left: 7.438rem;
+        margin-top: 4.3rem;
         margin-bottom: 1.438rem;
     }
     .fa-js-square {
         font-size: 4.375rem;
         color: #f0be11;
-        margin-left: 12.313rem;
-        margin-top: 2.5rem;
+        margin-left: 7rem;
+        margin-top: 4.2rem;
         margin-bottom: 1.438rem;
     }
     .tout-p {
-        line-height: .4;
-        margin-left: 2.5rem;
+        line-height: 1.7;
+        margin-left: 1.75rem;
     }
     .css-tout {
-        line-height: .4;
-        margin-left: 4.688rem;
+        line-height: 1.7;
+        margin-left: 1.688rem;
+        margin-top: 1.9rem;
     }
     .js-tout {
-        line-height: .4;
-        margin-left: 5.813rem;
+        line-height: 1.7;
+        margin-left: 2.813rem;
+        margin-top: 2.7rem;
     }
     .p1line2 {
         margin-left: 5.313rem;
+        display: none;
     }
     .tout-p2 {
         margin-top: 3.438rem;
-        margin-left: 7.375rem;
+        margin-left: 2rem;
         font-size: 1.188rem;
     }
     .highlight {
         color: #141c3a;
     }
     .tout-p3 {
-        margin-top: 55px;
-        margin-left: 157px;
+        margin-top: 5rem;
+        margin-left: 4.6rem;
         font-size: 19px;
         font-weight: 300;
     }
     .css-p3 {
         margin-top: 3.438rem;
-        margin-left: 10.625rem;
+        margin-left: 5.65rem;
         font-size: 1.188rem;
         font-weight: 300;
     }
     .p2line2 {
         margin-top: 0rem;
         padding-top: 0rem;
+        font-size: 1rem;
+    }
+    .p2line2:nth-of-type(3) {
+        margin-right: 5rem;
     }
     .p3line2 {
-        margin-left: 9.688rem;
+        margin-left: 4.688rem;
         padding-bottom: 2.313rem;
         font-size: .938rem;
         line-height: 1.8;
     }
+    .p3line2:nth-of-type(2)
     .chrome{
         margin-left: 10rem;
     }
@@ -598,41 +632,45 @@
         margin-left: 6.875rem;
     }
     .js-p3 {
-        margin-left: 9.813rem;
+        margin-left: 3.813rem;
         font-size: 1.188rem;
         font-weight: 300;
     }
     .quokka {
-        margin-left: 12.375rem;
+        margin-left: 6.775rem;
     }
     .project-header {
         font-family: "gruppo", sans-serif;
-        font-size: 2.5;
-        margin-left: 8.75rem;
-        margin-top: 1.25rem;
+        font-size: 4.5rem;
+        margin-left: 16.75rem;
+        margin-top: .35rem;
         color: #141c3a;
         
     }
     .projects {
-        height: 112.5rem;
+        height: 68.5rem;
         background-color:white;
+        display: flex;
+        flex-wrap: wrap;
+        padding-bottom: 400px;
     }
     .recent-work {
         font-size: 1.313rem;
+        margin-left: 15rem;
         color:#141c3a;
-        margin-bottom: 4.375rem;
+        padding-bottom: .00375rem;
     }
     .cards {
         height: 21.875rem;
-        width: 27.5rem;
+        width: 24rem;
         border-radius: 1rem;
-        margin-left: 1.563rem;
-        margin-bottom: 1.875rem;
-        background-color: rgba(20, 28, 58, .07)
+        margin-left: 4.1rem;
+        margin-bottom: 2.275rem;
+        background-color: rgba(20, 28, 58, .07);
     }
     .cards img {
         height: 11.938rem;
-        width: 27.5rem;
+        width: 24rem;
         border-top-right-radius: 1rem;
         border-top-left-radius: 1rem;
     }
@@ -658,36 +696,46 @@
     }
     form {
         height: 31.25rem;
-        width: 18.75rem;
+        width: 38.75rem;
         background-color: #750ff7;
         border-radius: .8rem;
         position: relative;
-        bottom: 5.938rem;
-        left: 5.938rem;
+        bottom: 3.938rem;
+        left: 9.938rem;
         margin-left: .625rem;
     }
     label {
-        margin: .625rem;
+        margin-left: 12.625rem;
         color: white;
     }
 
     #first-name {
-        margin-left: .625rem;
+        width: 33%;
+        margin-left: 13rem;
         border: .063rem solid lightgray;
         border-radius: .4rem;
     }
+    .first {
+        margin-left: 13.4rem;
+    }
+    .email {
+        margin-left: 11.6rem;
+    }
     #last-name {
-        margin-left: .625rem;
+        width: 38%;
+        margin-left: 11.925rem;
         border: .063rem solid lightgray;
         border-radius: .4rem;
     }
     #email {
-        margin-left: .625rem;
+        width: 47%;
+        margin-left: 10.2rem;
         border: .063rem solid lightgray;
         border-radius: .4rem;
     }
     textarea {
-        margin-left: .625rem;
+        width: 60%;
+        margin-left: 7.625rem;
         border: .063rem solid lightgray;
         border-radius: .4rem;
         max-height: 8.75rem;
@@ -695,9 +743,9 @@
     
     }
     button {
-         width: 30%;
+         width: 75%;
          margin-top: .75rem;
-         margin-left: .625rem;
+         margin-left: 4.625rem;
          border: .125rem solid #750ff7 ;
          border-radius: .4rem;
          background-color: #141c3a;
@@ -706,26 +754,26 @@
     form h4 {
         color:white;
         font-family: "gruppo", sans-serif;
-        font-size: 2.188rem;
+        font-size: 2.7rem;
         font-weight: 900;
-        margin-left: 3.375rem;
+        margin-left: 12.5rem;
         padding-top: 1.25rem;
     }
     footer {
         background-color: #141c3a;
     }
     .fa-linkedin {
-        font-size: 5.625rem;
+        font-size: 6.625rem;
         color: #0a66c2;
         margin-bottom: 2.813rem;
-        margin-left: 8.75rem;
+        margin-left: 18.75rem;
         margin-top: -6.25rem;
     }
     #github {
-        font-size: 5.625rem;
+        font-size: 6.625rem;
         color: darkgray;
         margin-bottom: 2.813rem;
-        margin-left: 3.125rem;
+        margin-left: 11.125rem;
         margin-top: -6.25rem;
     }
     }

@@ -26,8 +26,8 @@ $.ajax("https://spreadsheets.google.com/feeds/list/1hoUmuy23O3N7PikDWrUvcJ3dfOLz
             <img src="${arrItem.image}">
             <h5>${arrItem.project}</h5>
             <p class="project-description">${arrItem.description}</p>
-            <a href="${arrItem.liveurl}"><i class="fab fa-chrome"></i></a>
-            <a href="${arrItem.giturl}"><i class="fab fa-github"></i></a>
+            <a href="${arrItem.liveurl}" target="_blank"><i class="fab fa-chrome"></i></a>
+            <a href="${arrItem.giturl}" target="_blank"><i class="fab fa-github"></i></a>
            
             </div>
         `)
