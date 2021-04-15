@@ -1,36 +1,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Gruppo&display=swap');
 
 * {
-    margin: 0px;
-    padding: 0px;
+    margin: 0rem;
+    padding: 0rem;
 }
 
     h1 {
         font-family: "gruppo", sans-serif;
-        font-size: 60px;
+        font-size: 3.75rem;
         font-weight: 900;
         line-height: .8;
-        margin-left: 120px;
-        margin-top: 40px;
-        padding-bottom: 30px;
+        margin-left: 7.5rem;
+        margin-top: 2.5rem;
+        padding-bottom: 1.875rem;
     }
     .fa-google {
-        font-size: 45px;
+        font-size: 2.813rem;
         color: #141c3a;
-        margin-top: 35px;
-        margin-left: 15px;
+        margin-top: 2.188rem;
+        margin-left: .938rem;
     }
     .fa-bars {
         color: black;
-        font-size: 30px;
-        margin-left: 400px;  
-        margin-bottom: 30px;  
+        font-size: 1.875rem;
+        margin-left: 25rem;  
+        margin-bottom: 1.875rem;  
     }
     p {
-        font-size: 17px;
+        font-size: 1.063rem;
         font-weight: 200;
-        margin-top: 20px;
-        margin-left: 15px;
+        margin-top: 1.25rem;
+        margin-left: .938rem;
     }
     span {
         color: #fa4442;
@@ -40,120 +40,121 @@
         text-decoration: none;
     }
     .tidbit1 {
-        font-size: 19px;
-        margin-left: 50px;
+        font-size: 1.188rem;
+        margin-left: 3.125rem;
     }
     .tidbit2 {
-        font-size: 19px;
+        font-size: 1.188rem;
         color: black;
         font-weight: 200;
-        margin-left: 120px;
+        margin-left: 7.5rem;
     }
     .svg {
-        width: 450px;
-        margin-left: 25px;
+        width: 28.125rem;
+        margin-left: 1.563rem;
     }
     .web-dev {
-        width: 170px;
-        margin-left: 160px;
-        margin-top: 45px;
-        margin-bottom: 60px;
+        width: 10.625rem;
+        margin-left: 10rem;
+        margin-top: 2.813rem;
+        margin-bottom: 3.75rem;
     }
     .container {
-        margin: 0px;
-        padding: 0px;
+        margin: 0rem;
+        padding: 0rem;
     }
     .container2 {
         background-color: #141c3a;
-        width: 100%;
-        padding: 20px;
+        width: 48rem;
+        padding: 1.25rem;
     }
     .container2 h2 {
         font-family: "gruppo", sans-serif;
         font-weight: 900;
         color: white;
-        margin-left: 50px;
-        margin-top: 40px;
+        margin-left: 3.125rem;
+        margin-top: 2.5rem;
     }
     .personal {
         color: white;
         font-weight: 200;
         line-height: 1.9;
-        margin-left: 60px;
+        margin-left: 3.75rem;
     }
     .filler {
-        height: 140px;
+        width: 48rem;
+        height: 8.75rem;
         background-color: #141c3a;
     }
     .skills {
-        height: 1750px;
+        height: 109.375rem;
         width: 90%;
-        margin-left: 25px;
+        margin-left: 1.563rem;
         background-color: white;
-        border: 1px solid lightgray;
+        border: .063rem solid lightgray;
         position: relative;
-        bottom: 120px;
+        bottom: 7.5rem;
         border-radius: .9rem ;
-        box-shadow: 0 5px 2px -2px lightgray;
-        margin-bottom: -65px;
+        box-shadow: 0 .313rem .125rem -.125rem lightgray;
+        margin-bottom: -4.063rem;
     }
     .touts {
     }
     .fa-html5 {
-        font-size: 70px;
+        font-size: 4.375rem;
         color: #e54f26;
-        margin-left: 190px;
-        margin-top: 40px;
-        margin-bottom: 23px;
+        margin-left: 11.875rem;
+        margin-top: 2.5rem;
+        margin-bottom: 1.438rem;
     }
     .html5 {
-        margin-left: 175px;
-        margin-bottom: 40px;
-        margin-top: 12px;
+        margin-left: 10.938rem;
+        margin-bottom: 2.5rem;
+        margin-top: .75rem;
     }
     .css3 {
-        margin-left: 195px;
-        margin-bottom: 40px;
-        margin-top: 12px;
+        margin-left: 12.188rem;
+        margin-bottom: 2.5rem;
+        margin-top: .75rem;
     }
     .js {
-        margin-left: 170px;
-        margin-bottom: 40px;
-        margin-top: 12px;
+        margin-left: 10.625rem;
+        margin-bottom: 2.5rem;
+        margin-top: .75rem;
     }
     .fa-css3-alt {
-        font-size: 70px;
+        font-size: 4.375rem;
         color: #2962ff;
-        margin-left: 199px;
-        margin-top: 40px;
-        margin-bottom: 23px;
+        margin-left: 12.438rem;
+        margin-top: 2.5rem;
+        margin-bottom: 1.438rem;
     }
     .fa-js-square {
-        font-size: 70px;
+        font-size: 4.375rem;
         color: #f0be11;
-        margin-left: 197px;
-        margin-top: 40px;
-        margin-bottom: 23px;
+        margin-left: 12.313rem;
+        margin-top: 2.5rem;
+        margin-bottom: 1.438rem;
     }
     .tout-p {
         line-height: .4;
-        margin-left: 40px;
+        margin-left: 2.5rem;
     }
     .css-tout {
         line-height: .4;
-        margin-left: 75px;
+        margin-left: 4.688rem;
     }
     .js-tout {
         line-height: .4;
-        margin-left: 93px;
+        margin-left: 5.813rem;
     }
     .p1line2 {
-        margin-left: 85px;
+        margin-left: 5.313rem;
     }
     .tout-p2 {
-        margin-top: 55px;
-        margin-left: 118px;
-        font-size: 19px;
+        margin-top: 3.438rem;
+        margin-left: 7.375rem;
+        font-size: 1.188rem;
     }
     .highlight {
         color: #141c3a;
@@ -165,84 +166,449 @@
         font-weight: 300;
     }
     .css-p3 {
-        margin-top: 55px;
-        margin-left: 170px;
-        font-size: 19px;
+        margin-top: 3.438rem;
+        margin-left: 10.625rem;
+        font-size: 1.188rem;
         font-weight: 300;
     }
     .p2line2 {
-        margin-top: 0px;
-        padding-top: 0px;
-    }
-    .design {
-        margin-left: ;
+        margin-top: 0rem;
+        padding-top: 0rem;
     }
     .p3line2 {
-        margin-left: 155px;
-        padding-bottom: 37px;
-        font-size: 15px;
+        margin-left: 9.688rem;
+        padding-bottom: 2.313rem;
+        font-size: .938rem;
         line-height: 1.8;
     }
     .chrome{
-        margin-left: 160px;
+        margin-left: 10rem;
     }
     .figma {
-        margin-left: 48px;
+        margin-left: 3rem;
         color: black;
         font-weight: 200;
-        font-size: 15px;
+        font-size: .938rem;
     }
     .hoverify {
-        margin-left: 36px;
+        margin-left: 2.25rem;
         color: black;
         font-weight: 200;
-        font-size: 15px;
+        font-size: .938rem;
     }
     .pen {
-        margin-left: 26px;
+        margin-left: 1.625rem;
         color: black;
         font-weight: 200;
-        font-size: 15px;
+        font-size: .938rem;
     }
     .js-tout-p2 {
-        margin-left: 110px;
+        margin-left: 6.875rem;
     }
     .js-p3 {
-        margin-left: 157px;
-        font-size: 19px;
+        margin-left: 9.813rem;
+        font-size: 1.188rem;
         font-weight: 300;
     }
     .quokka {
-        margin-left: 198px;
+        margin-left: 12.375rem;
     }
     .project-header {
         font-family: "gruppo", sans-serif;
-        font-size: 40px;
-        margin-left: 140px;
-        margin-top: 20px;
+        font-size: 2.5;
+        margin-left: 8.75rem;
+        margin-top: 1.25rem;
         color: #141c3a;
         
     }
     .projects {
-        height: 1800px;
+        height: 112.5rem;
         background-color:white;
     }
     .recent-work {
-        font-size: 21px;
+        font-size: 1.313rem;
         color:#141c3a;
-        margin-bottom: 70px;
+        margin-bottom: 4.375rem;
     }
     .cards {
-        height: 350px;
-        width: 440px;
+        height: 21.875rem;
+        width: 27.5rem;
         border-radius: 1rem;
-        margin-left: 25px;
-        margin-bottom: 30px;
+        margin-left: 1.563rem;
+        margin-bottom: 3.875rem;
         background-color: rgba(20, 28, 58, .07)
     }
     .cards img {
-        height: 191px;
-        width: 440px;
+        height: 11.938rem;
+        width: 27.5rem;
+        border-top-right-radius: 1rem;
+        border-top-left-radius: 1rem;
+    }
+    .cards h5 {
+        font-family: "gruppo", sans-serif;
+        font-weight: 900;
+    }
+    .fa-github {
+        font-size: 30px;
+        color: #141c3a;
+        margin-top: 20px;
+    }
+    .fa-chrome {
+        font-size: 1.875rem;
+        color: #141c3a
+    }
+     h5 {
+         color:#141c3a;
+        font-size: 1.438rem;
+        font-weight: 900;
+        margin-left: 4.375rem;
+        padding-top: 1.25rem;
+    }
+    .project-description {
+        color: #141c3a;
+        margin-left: 8.125rem;
+    }
+    form {
+        height: 31.25rem;
+        width: 18.75rem;
+        background-color: #750ff7;
+        border-radius: .8rem;
+        position: relative;
+        bottom:1.938rem;
+        left: 5.938rem;
+        margin-left: .625rem;
+    }
+    label {
+        margin: .625rem;
+        color: white;
+    }
+
+    #first-name {
+        margin-left: .625rem;
+        border: .063rem solid lightgray;
+        border-radius: .4rem;
+    }
+    #last-name {
+        margin-left: .625rem;
+        border: .063rem solid lightgray;
+        border-radius: .4rem;
+    }
+    #email {
+        margin-left: .625rem;
+        border: .063rem solid lightgray;
+        border-radius: .4rem;
+    }
+    textarea {
+        margin-left: .625rem;
+        border: .063rem solid lightgray;
+        border-radius: .4rem;
+        max-height: 8.75rem;
+        min-height: 8.75rem;
+    
+    }
+    button {
+         width: 30%;
+         margin-top: .75rem;
+         margin-left: .625rem;
+         border: .125rem solid #750ff7 ;
+         border-radius: .4rem;
+         background-color: #141c3a;
+         color: white
+    }
+    form h4 {
+        color:white;
+        font-family: "gruppo", sans-serif;
+        font-size: 2.188rem;
+        font-weight: 900;
+        margin-left: 3.375rem;
+        padding-top: 1.25rem;
+    }
+    footer {
+        background-color: #141c3a;
+    }
+    .fa-linkedin {
+        font-size: 5.625rem;
+        color: #0a66c2;
+        margin-bottom: 2.813rem;
+        margin-left: 8.75rem;
+        margin-top: -6.25rem;
+        padding-top: 8rem;
+    }
+    #github {
+        font-size: 5.625rem;
+        color: darkgray;
+        margin-bottom: 2.813rem;
+        margin-left: 3.125rem;
+        margin-top: -6.25rem;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* Tablet Styling */
+    @media only screen and (min-width: 768px) {
+
+    h1 {
+        font-family: "gruppo", sans-serif;
+        font-size: 5.5rem;
+        font-weight: 900;
+        line-height: .8;
+        margin-left: 19.5rem;
+        padding-bottom: 1.875rem;
+    }
+    .fa-google {
+        font-size: 3.813rem;
+        color: #141c3a;
+        margin-top: 2.188rem;
+        margin-left: .938rem;
+    }
+    .fa-bars {
+        color: black;
+        font-size: 2.875rem;
+        margin-left: 55rem;  
+        margin-bottom: 1.875rem;  
+    }
+    p {
+        font-size: 1.063rem;
+        font-weight: 200;
+        margin-top: 1.25rem;
+        margin-left: .938rem;
+    }
+    span {
+        color: #fa4442;
+        font-weight: 300;
+    }
+    a {
+        text-decoration: none;
+    }
+    .tidbit1 {
+        font-size: 1.4rem;
+        margin-left: 16.125rem;
+    }
+    .tidbit2 {
+        font-size: 1.4rem;
+        color: black;
+        font-weight: 200;
+        margin-left: 8.5rem;
+    }
+    .svg {
+        width: 38.125rem;
+        margin-left: 12.563rem;
+    }
+    .web-dev {
+        width: 13.825rem;
+        margin-left: 23.5rem;
+        margin-top: 2.813rem;
+        margin-bottom: 3.75rem;
+    }
+    .container {
+        margin: 0rem;
+        padding: 0rem;
+    }
+    .container2 {
+        background-color: #141c3a;
+        width: 100%;
+        padding: 1.25rem;
+        margin-left: 9rem;
+        border-top-left-radius: 1rem;
+        border-top-right-radius: 1rem;
+    }
+    .container2 h2 {
+        font-family: "gruppo", sans-serif;
+        font-weight: 900;
+        color: white;
+        margin-left: 8.125rem;
+        margin-top: 2.5rem;
+    }
+    .personal {
+        color: white;
+        font-weight: 200;
+        line-height: 1.9;
+        margin-left: 9.75rem;
+    }
+    .filler {
+        height: 8.75rem;
+        width: 100%;
+        margin-left: 9.0rem;
+        background-color: #141c3a;
+    }
+    .skills {
+        height: 109.375rem;
+        width: 90%;
+        margin-left: 1.563rem;
+        background-color: white;
+        border: .063rem solid lightgray;
+        position: relative;
+        bottom: 7.5rem;
+        border-radius: .9rem ;
+        box-shadow: 0 .313rem .125rem -.125rem lightgray;
+        margin-bottom: -4.063rem;
+    }
+    .touts {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .fa-html5 {
+        font-size: 4.375rem;
+        color: #e54f26;
+        margin-left: 23.8rem;
+        margin-top: 4.5rem;
+        margin-bottom: 3.438rem;
+    }
+    .html5 {
+        font-size: 1.75rem;
+        margin-left: 22.938rem;
+        margin-bottom: 2.5rem;
+        margin-top: 1.75rem;
+    }
+    .css3 {
+        margin-left: 12.188rem;
+        margin-bottom: 2.5rem;
+        margin-top: .75rem;
+    }
+    .js {
+        margin-left: 10.625rem;
+        margin-bottom: 2.5rem;
+        margin-top: .75rem;
+    }
+    .fa-css3-alt {
+        font-size: 4.375rem;
+        color: #2962ff;
+        margin-left: 12.438rem;
+        margin-top: 2.5rem;
+        margin-bottom: 1.438rem;
+    }
+    .fa-js-square {
+        font-size: 4.375rem;
+        color: #f0be11;
+        margin-left: 12.313rem;
+        margin-top: 2.5rem;
+        margin-bottom: 1.438rem;
+    }
+    .tout-p {
+        line-height: .4;
+        margin-left: 2.5rem;
+    }
+    .css-tout {
+        line-height: .4;
+        margin-left: 4.688rem;
+    }
+    .js-tout {
+        line-height: .4;
+        margin-left: 5.813rem;
+    }
+    .p1line2 {
+        margin-left: 5.313rem;
+    }
+    .tout-p2 {
+        margin-top: 3.438rem;
+        margin-left: 7.375rem;
+        font-size: 1.188rem;
+    }
+    .highlight {
+        color: #141c3a;
+    }
+    .tout-p3 {
+        margin-top: 55px;
+        margin-left: 157px;
+        font-size: 19px;
+        font-weight: 300;
+    }
+    .css-p3 {
+        margin-top: 3.438rem;
+        margin-left: 10.625rem;
+        font-size: 1.188rem;
+        font-weight: 300;
+    }
+    .p2line2 {
+        margin-top: 0rem;
+        padding-top: 0rem;
+    }
+    .p3line2 {
+        margin-left: 9.688rem;
+        padding-bottom: 2.313rem;
+        font-size: .938rem;
+        line-height: 1.8;
+    }
+    .chrome{
+        margin-left: 10rem;
+    }
+    .figma {
+        margin-left: 3rem;
+        color: black;
+        font-weight: 200;
+        font-size: .938rem;
+    }
+    .hoverify {
+        margin-left: 2.25rem;
+        color: black;
+        font-weight: 200;
+        font-size: .938rem;
+    }
+    .pen {
+        margin-left: 1.625rem;
+        color: black;
+        font-weight: 200;
+        font-size: .938rem;
+    }
+    .js-tout-p2 {
+        margin-left: 6.875rem;
+    }
+    .js-p3 {
+        margin-left: 9.813rem;
+        font-size: 1.188rem;
+        font-weight: 300;
+    }
+    .quokka {
+        margin-left: 12.375rem;
+    }
+    .project-header {
+        font-family: "gruppo", sans-serif;
+        font-size: 2.5;
+        margin-left: 8.75rem;
+        margin-top: 1.25rem;
+        color: #141c3a;
+        
+    }
+    .projects {
+        height: 112.5rem;
+        background-color:white;
+    }
+    .recent-work {
+        font-size: 1.313rem;
+        color:#141c3a;
+        margin-bottom: 4.375rem;
+    }
+    .cards {
+        height: 21.875rem;
+        width: 27.5rem;
+        border-radius: 1rem;
+        margin-left: 1.563rem;
+        margin-bottom: 1.875rem;
+        background-color: rgba(20, 28, 58, .07)
+    }
+    .cards img {
+        height: 11.938rem;
+        width: 27.5rem;
         border-top-right-radius: 1rem;
         border-top-left-radius: 1rem;
     }
@@ -252,67 +618,63 @@
         margin-top: 20px;
     }
     .fa-chrome {
-        font-size: 30px;
+        font-size: 1.875rem;
         color: #141c3a
     }
      h5 {
          color:#141c3a;
-        font-size: 23px;
+        font-size: 1.438rem;
         font-weight: 900;
-        margin-left: 70px;
-        padding-top: 20px;
-    }
-    h5:nth-of-type(2) {
-        margin-left: 45px;
+        margin-left: 4.375rem;
+        padding-top: 1.25rem;
     }
     .project-description {
         color: #141c3a;
-        margin-left: 130px;
+        margin-left: 8.125rem;
     }
     form {
-        height: 500px;
-        width: 300px;
-        border: 1px ;
+        height: 31.25rem;
+        width: 18.75rem;
         background-color: #750ff7;
         border-radius: .8rem;
         position: relative;
-        bottom: 95px;
-        left: 95px;
-        margin-left: 10px;
+        bottom: 5.938rem;
+        left: 5.938rem;
+        margin-left: .625rem;
     }
     label {
-        margin: 10px;
+        margin: .625rem;
         color: white;
     }
 
     #first-name {
-        margin-left: 10px;
-        border: 1px solid lightgray;
+        margin-left: .625rem;
+        border: .063rem solid lightgray;
         border-radius: .4rem;
     }
     #last-name {
-        margin-left: 10px;
-        border: 1px solid lightgray;
+        margin-left: .625rem;
+        border: .063rem solid lightgray;
         border-radius: .4rem;
     }
     #email {
-        margin-left: 10px;
-        border: 1px solid lightgray;
+        margin-left: .625rem;
+        border: .063rem solid lightgray;
         border-radius: .4rem;
     }
     textarea {
-        margin-left: 10px;
-        border: 1px solid lightgray;
+        margin-left: .625rem;
+        border: .063rem solid lightgray;
         border-radius: .4rem;
-        max-height: 140px;
-        min-height: 140px;
+        max-height: 8.75rem;
+        min-height: 8.75rem;
     
     }
     button {
          width: 30%;
-         margin-top: 12px;
-         margin-left: 10px;
-         border: 2px solid #750ff7 ;
+         margin-top: .75rem;
+         margin-left: .625rem;
+         border: .125rem solid #750ff7 ;
          border-radius: .4rem;
          background-color: #141c3a;
          color: white
@@ -320,27 +682,26 @@
     form h4 {
         color:white;
         font-family: "gruppo", sans-serif;
-        font-size: 35px;
+        font-size: 2.188rem;
         font-weight: 900;
-        margin-left: 54px;
-        padding-top: 20px;
+        margin-left: 3.375rem;
+        padding-top: 1.25rem;
     }
     footer {
         background-color: #141c3a;
     }
     .fa-linkedin {
-        font-size: 90px;
+        font-size: 5.625rem;
         color: #0a66c2;
-        margin-bottom: 45px;
-        margin-left: 140px;
-        margin-top: -100px;
+        margin-bottom: 2.813rem;
+        margin-left: 8.75rem;
+        margin-top: -6.25rem;
     }
     #github {
-        font-size: 90px;
+        font-size: 5.625rem;
         color: darkgray;
-        margin-bottom: 45px;
-        margin-left: 50px;
-        margin-top: -100px;
+        margin-bottom: 2.813rem;
+        margin-left: 3.125rem;
+        margin-top: -6.25rem;
     }
-
-    @media only screen
+    }
