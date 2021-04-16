@@ -23,7 +23,7 @@
     .fa-bars {
         color: black;
         font-size: 1.875rem;
-        margin-left: 25rem;  
+        margin-left: 21.3rem;  
         margin-bottom: 1.875rem;  
     }
     p {
@@ -41,6 +41,7 @@
     }
     .nav-links {
         display: none;
+        
     }
     .tidbit1 {
         font-size: 1.188rem;
@@ -461,7 +462,7 @@
     }
     .nav-links:hover {
         color:#750ff7;
-        font-size: 3rem;
+        font-size: 1.5rem;
     }
     .nav-links-div {
         width: 130%;
@@ -505,14 +506,14 @@
         font-size: 2.2rem;
         font-weight: 900;
         color: white;
-        margin-left: 12.125rem;
+        margin-left: 13.5rem;
         margin-top: 2.5rem;
     }
     .personal {
         color: white;
         font-weight: 200;
         line-height: 1.9;
-        margin-left: 16.75rem;
+        margin-left: 18.75rem;
     }
     .filler {
         height: 8.75rem;
@@ -764,9 +765,9 @@
     }
     button {
          width: 75%;
-         margin-top: .75rem;
+         margin-top: .3rem;
          margin-left: 4.625rem;
-         border: .125rem solid #750ff7 ;
+         border: .125rem solid #141c3a ;
          border-radius: .4rem;
          background-color: #141c3a;
          color: white
@@ -904,7 +905,7 @@
         }
         .nav-links:hover {
             color:#750ff7;
-            font-size: 3rem;
+            font-size: 1.5rem;
         }
         .nav-links-div {
             width: 100%;
@@ -1340,7 +1341,7 @@
         }
         .nav-links:hover {
             color:#750ff7;
-            font-size: 3rem;
+            font-size: 1.5rem;
         }
         .nav-links-div {
             width: 130%;
@@ -1617,12 +1618,12 @@
     
         #first-name {
             width: 33%;
-            margin-left: 23.5rem;
+            margin-left: 24rem;
             border: .063rem solid lightgray;
             border-radius: .4rem;
         }
         .first {
-            margin-left: 23.5rem;
+            margin-left: 24.5rem;
         }
         .email {
             margin-left: 15.5rem;
@@ -1637,7 +1638,7 @@
             border-radius: .4rem;
         }
         #email {
-            width: 57%;
+            width: 58%;
             margin-left: 15.3rem;
             border: .063rem solid lightgray;
             border-radius: .4rem;
@@ -1655,7 +1656,7 @@
         button {
              width: 33%;
              height: 3rem;
-             margin-top: .75rem;
+             margin-top: 1.05rem;
              margin-left: 23.5rem;
              border: .125rem solid #750ff7 ;
              border-radius: .4rem;
