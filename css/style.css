@@ -39,6 +39,9 @@
     a {
         text-decoration: none;
     }
+    .nav-links {
+        display: none;
+    }
     .tidbit1 {
         font-size: 1.188rem;
         margin-left: 3.125rem;
@@ -159,7 +162,7 @@
         font-size: 1.188rem;
     }
     .highlight {
-        color: #141c3a;
+        color: #750ff7;
     }
     .tout-p3 {
         margin-top: 55px;
@@ -578,7 +581,7 @@
         font-size: 1.188rem;
     }
     .highlight {
-        color: #141c3a;
+        color: #750ff7;
     }
     .tout-p3 {
         margin-top: 5rem;
@@ -827,6 +830,457 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+        /* desktop view */
+    @media only screen and (min-width: 1280px) {
+
+        h1 {
+            font-family: "gruppo", sans-serif;
+            font-size: 5.5rem;
+            font-weight: 900;
+            line-height: .8;
+            margin-left: 14.5rem;
+            padding-bottom: 1.875rem;
+        }
+        .fa-google {
+            font-size: 3.813rem;
+            color: #141c3a;
+            margin-top: 2.188rem;
+            margin-left: .938rem;
+        }
+        .fa-bars {
+            color: black;
+            font-size: 2.875rem;
+            margin-left: 65rem;  
+            margin-bottom: 1.875rem;  
+            display: none;
+        }
+        p {
+            font-size: 1.063rem;
+            font-weight: 200;
+            margin-top: 1.25rem;
+            margin-left: .938rem;
+        }
+        span {
+            color: #fa4442;
+            font-weight: 300;
+        }
+        a {
+            text-decoration: none;
+        }
+        .nav-links {
+            display: unset;
+            text-decoration: none;
+            color: black;
+            display: flex;
+            position: relative;
+            left: 97%;
+
+        }
+        .nav-links:hover {
+            color:#750ff7;
+            font-size: 3rem;
+        }
+        .nav-links-div {
+            width: 100%;
+        }
+        .tidbit1 {
+            font-size: 1.4rem;
+            margin-left: 24rem;
+        }
+        .tidbit2 {
+            font-size: 1.4rem;
+            color: black;
+            font-weight: 200;
+            margin-left: 8.5rem;
+        }
+        .svg {
+            width: 38.125rem;
+            margin-left: 21.563rem;
+        }
+        .web-dev {
+            width: 13.825rem;
+            margin-left: 30.5rem;
+            margin-top: 2.813rem;
+            margin-bottom: 3.75rem;
+        }
+        .container {
+            margin: 0rem;
+            padding: 0rem;
+        }
+        .container2 {
+            background-color: #141c3a;
+            width: 112.5%;
+            padding: 1.25rem;
+            border-top-left-radius: 1rem;
+            border-top-right-radius: 1rem;
+        }
+        .container2 h2 {
+            font-family: "gruppo", sans-serif;
+            font-size: 2.2rem;
+            font-weight: 900;
+            color: white;
+            margin-left: 22.125rem;
+            margin-top: 2.5rem;
+        }
+        .personal {
+            color: white;
+            font-weight: 200;
+            line-height: 1.9;
+            margin-left: 25.75rem;
+        }
+        .filler {
+            height: 8.75rem;
+            width: 112.5%;
+            background-color: #141c3a;
+        }
+        .skills {
+            height: 45.375rem;
+            width: 90%;
+            margin-left: 4rem;
+            background-color: white;
+            border: .063rem solid lightgray;
+            position: relative;
+            bottom: 7.5rem;
+            border-radius: .9rem ;
+            box-shadow: 0 .313rem .125rem -.125rem lightgray;
+            margin-bottom: -4.063rem;
+            display: flex;
+        }
+        .touts {
+            width: 33.5%;
+        }
+        .touts:nth-of-type(2) {
+            border-right: 1px solid #e6ecf8;
+            border-left: 1px solid #e6ecf8;
+        }
+        
+        .fa-html5 {
+            font-size: 4.375rem;
+            color: #e54f26;
+            margin-left: 7.4rem;
+            margin-top: 4.5rem;
+            margin-bottom: 3.438rem;
+        }
+        .html5 {
+            font-size: 1.5rem;
+            margin-left: 6.5rem;
+            margin-top: 1.75rem;
+        }
+        .css3 {
+            margin-left: 6.7rem;
+            margin-top: 3.59rem;
+        }
+        .js {
+            margin-left: 4.825rem;
+            margin-top: 3.25rem;
+        }
+        .fa-css3-alt {
+            font-size: 4.375rem;
+            color: #2962ff;
+            margin-left: 7.438rem;
+            margin-top: 4.3rem;
+            margin-bottom: 1.438rem;
+        }
+        .fa-js-square {
+            font-size: 4.375rem;
+            color: #f0be11;
+            margin-left: 7rem;
+            margin-top: 4.2rem;
+            margin-bottom: 1.438rem;
+        }
+        .tout-p {
+            line-height: 1.7;
+            margin-left: 1.75rem;
+        }
+        .css-tout {
+            line-height: 1.7;
+            margin-left: 1.688rem;
+            margin-top: 1.9rem;
+        }
+        .js-tout {
+            line-height: 1.7;
+            margin-left: 2.813rem;
+            margin-top: 2.7rem;
+        }
+        .p1line2 {
+            margin-left: 5.313rem;
+            display: none;
+        }
+        .tout-p2 {
+            margin-top: 3.438rem;
+            margin-left: 2rem;
+            font-size: 1.188rem;
+        }
+        .highlight {
+            color: #750ff7;
+        }
+        .tout-p3 {
+            margin-top: 5rem;
+            margin-left: 4.6rem;
+            font-size: 19px;
+            font-weight: 300;
+        }
+        .css-p3 {
+            margin-top: 3.438rem;
+            margin-left: 5.65rem;
+            font-size: 1.188rem;
+            font-weight: 300;
+        }
+        .p2line2 {
+            margin-top: 0rem;
+            padding-top: 0rem;
+            font-size: 1rem;
+        }
+        .p2line2:nth-of-type(3) {
+            margin-right: 5rem;
+        }
+        .p3line2 {
+            margin-left: 4.688rem;
+            padding-bottom: 2.313rem;
+            font-size: .938rem;
+            line-height: 1.8;
+        }
+        .p3line2:nth-of-type(2)
+        .chrome{
+            margin-left: 10rem;
+        }
+        .figma {
+            margin-left: 3rem;
+            color: black;
+            font-weight: 200;
+            font-size: .938rem;
+        }
+        .hoverify {
+            margin-left: 2.25rem;
+            color: black;
+            font-weight: 200;
+            font-size: .938rem;
+        }
+        .pen {
+            margin-left: 1.625rem;
+            color: black;
+            font-weight: 200;
+            font-size: .938rem;
+        }
+        .js-tout-p2 {
+            margin-left: 6.875rem;
+        }
+        .js-p3 {
+            margin-left: 3.813rem;
+            font-size: 1.188rem;
+            font-weight: 300;
+        }
+        .quokka {
+            margin-left: 6.775rem;
+        }
+        .project-header {
+            font-family: "gruppo", sans-serif;
+            font-size: 4.5rem;
+            margin-left: 26.75rem;
+            margin-top: .35rem;
+            color: #141c3a;
+            
+        }
+        .projects {
+            height: 68.5rem;
+            background-color:white;
+            display: flex;
+            flex-wrap: wrap;
+            padding-bottom: 400px;
+        }
+        .recent-work {
+            font-size: 1.313rem;
+            margin-left: 25rem;
+            color:#141c3a;
+            padding-bottom: .00375rem;
+        }
+        .cards {
+            height: 21.875rem;
+            width: 35rem;
+            border-radius: 1rem;
+            margin-left: 4.1rem;
+            margin-bottom: 2.275rem;
+            background-color: rgba(20, 28, 58, .07);
+        }
+        .cards img {
+            height: 11.938rem;
+            width: 35rem;
+            border-top-right-radius: 1rem;
+            border-top-left-radius: 1rem;
+        }
+        .fa-github {
+            font-size: 30px;
+            color: #141c3a;
+            margin-top: 20px;
+        }
+        .fa-chrome {
+            font-size: 1.875rem;
+            color: #141c3a
+        }
+         h5 {
+             color:#141c3a;
+            font-size: 1.438rem;
+            font-weight: 900;
+            margin-left: 4.375rem;
+            padding-top: 1.25rem;
+        }
+        .project-description {
+            color: #141c3a;
+            margin-left: 8.125rem;
+        }
+        form {
+            height: 31.25rem;
+            width: 38.75rem;
+            background-color: #750ff7;
+            border-radius: .8rem;
+            position: relative;
+            bottom: 3.938rem;
+            left: 21.938rem;
+            margin-left: .625rem;
+        }
+        label {
+            margin-left: 12.625rem;
+            color: white;
+        }
+    
+        #first-name {
+            width: 33%;
+            margin-left: 13rem;
+            border: .063rem solid lightgray;
+            border-radius: .4rem;
+        }
+        .first {
+            margin-left: 13.4rem;
+        }
+        .email {
+            margin-left: 11.6rem;
+        }
+        #last-name {
+            width: 38%;
+            margin-left: 11.925rem;
+            border: .063rem solid lightgray;
+            border-radius: .4rem;
+        }
+        #email {
+            width: 47%;
+            margin-left: 10.2rem;
+            border: .063rem solid lightgray;
+            border-radius: .4rem;
+        }
+        textarea {
+            width: 60%;
+            margin-left: 7.625rem;
+            border: .063rem solid lightgray;
+            border-radius: .4rem;
+            max-height: 8.75rem;
+            min-height: 8.75rem;
+        
+        }
+        button {
+             width: 75%;
+             margin-top: .75rem;
+             margin-left: 4.625rem;
+             border: .125rem solid #750ff7 ;
+             border-radius: .4rem;
+             background-color: #141c3a;
+             color: white
+        }
+        form h4 {
+            color:white;
+            font-family: "gruppo", sans-serif;
+            font-size: 2.7rem;
+            font-weight: 900;
+            margin-left: 12.5rem;
+            padding-top: 1.25rem;
+        }
+        footer {
+            background-color: #141c3a;
+        }
+        .fa-linkedin {
+            font-size: 6.625rem;
+            color: #0a66c2;
+            margin-bottom: 2.813rem;
+            margin-left: 30.75rem;
+            margin-top: -6.25rem;
+        }
+        #github {
+            font-size: 6.625rem;
+            color: darkgray;
+            margin-bottom: 2.813rem;
+            margin-left: 11.125rem;
+            margin-top: -6.25rem;
+        }
+        }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        /* XL Monitor View */
     @media only screen and (min-width: 1580px) {
         h1 {
             font-family: "gruppo", sans-serif;
@@ -860,6 +1314,15 @@
         }
         a {
             text-decoration: none;
+        }
+        .nav-links {
+            display: unset;
+            text-decoration: none;
+            color: black;
+            display: flex;
+            position: relative;
+            left: 125%;
+
         }
         .tidbit1 {
             font-size: 1.4rem;
@@ -991,7 +1454,7 @@
             font-size: 1.188rem;
         }
         .highlight {
-            color: #141c3a;
+            color: #750ff7;
         }
         .tout-p3 {
             margin-top: 2.5rem;
